@@ -1,9 +1,15 @@
-import './App.css';
-import Hook_use_State from './components/hook_use_State';
+import React from "react";
+import HookUseReducer from './components/HookUseReducer';
+import HookUseState from './components/HookUseState';
+import Reducer from "./components/Reducer";
 
 function App() {
   return (
-    <Hook_use_State/>
+    <div>
+      <HookUseState />
+      <HookUseReducer />
+      <Reducer/>     
+    </div>
   );
 }
 
